@@ -1,7 +1,10 @@
-body {
-    
+* {
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-header{
-    
+ul {
+    list-style-type: none;
 }
