@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang= "en">
 
-
     <head>
         <meta charset = 'UTF-8'>
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Rocket Launch Tracker</title>
         <link rel="stylesheet" href="assets/css/style.css">
+        <style type="text/css">
+            a:link{
+                color: black;
+            }
+            a:visited{
+                color: #0032a0;
+            }
+            a:hover{
+                color: #e4002b;
+            }
+            a:active{
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif
+            }
+        </style>
     </head>
-    <body>
-         <Header>
+    <div class="body">
+         <div class="header">
             <H1>Rocket Launch Tracker</H1>
-         </Header>
-         <main>
+            <ul>
+                <div class="list">
+                    <li><a href="#rockets">Rocket Launches</a></li>
+                    <li><a href="#pictures">Picture of the Day</a></li>
+                </div>
+            </ul>    
+        </div>
+         <div class="body">
+            <h2 id="rockets">Rocket Launch Countdown</h2>
+            <h3>Keep track of rocket launches from around the world!</h3>
+            <h2 id="pictures">Space Picture of the Day!</h2>
+            <h3>See pictures of space taken by NASA, freelance photographers, and more!</h3>
+            <h3>Sign up here for the Space Picture of the Day to be sent directly to your email!</h2>
             <!-- // Put API for Rocket Launch
             // Put API for APOD  -->
-         </main>
-         <footer>
-            
-         </footer>
+            </div>
+         <div class="footer">
+            <h4>Ready for Lift off?</h4>
+         </div>
          <script src="assets/js/script.js"></script>
-    </body>
+        </div>
 </html>
