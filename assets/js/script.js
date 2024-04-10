@@ -1,3 +1,4 @@
+
 // APOD API
 function getAPI() {
     const requestUrl = 'https://api.nasa.gov/planetary/apod';
