@@ -7,6 +7,26 @@
     color: aliceblue;
 }
 
+/* nav bar links */
+#main, .nav-bar, li {
+  text-decoration: none;
+  padding-right: 25px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #ccc;
+  display: inline;
+  justify-content: center;
+ 
+  }
+
+#main, .nav-bar li a {
+  text-decoration: none;
+  padding-right: 2px;
+  text-transform: uppercase;
+  color: #f7e6e6;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
 /* background image made by aly */
 body {
     background-image: url(/assets/images/rocket.bgIMG_1174.jpg);
@@ -31,25 +51,7 @@ body {
     }
   }
   
-  /* tabs to go to links */
-ul {
-    list-style-type: none;
-    border: solid;
-    padding: 0px;
-    margin: 2%;
-
-}
-
-.list {
-    display: inline;
-}
-
-/* body stuff */
-.header {
-    text-align: center;
-    text-shadow: none;
-}
-
+/* tabs to go to links */
 #rockets {
     font-size: 35px;
     font-family: monospace;

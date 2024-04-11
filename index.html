@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang= "en">
-
     <head>
         <meta charset = 'UTF-8'>
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Rocket Launch Tracker</title>
         <link rel="stylesheet" href="assets/css/style.css">
     </head> 
-    <body>
-         <div class="header">
-            <h1>Rocket Launch Tracker</H1>
+    <header><h1>Rocket Launch Tracker</H1>
+        <nav id="menu">
             <ul>
-                <div class="list">
+                <div class="nav-bar">
                     <li><a href="#rockets">Rocket Launches</a></li>
                     <li><a href="#pictures">Picture of the Day</a></li>
                     <li><a href="#Subscribe">Subscribe</a></li>
                 </div>
             </ul>    
-        </div>
+        </nav>
+    </header>
+    <body>
          <div class="main">
             <h2 id="rockets">Rocket Launch Countdown</h2>
             <h3>Keep track of rocket launches from around the world!</h3>
@@ -25,20 +25,21 @@
             <h3>See pictures of space taken by NASA, freelance photographers, and more!</h3>
     </body>
     <!-- form html -->
-    <form action="action_page.php">
+    <main>
+        <form action="action_page.php">
             <div class="container">
               <h1>Subscribe for more</h>
             </div>
         <div class="container">
           <input type="text" placeholder="Name" name="name" required>
           <input type="text" placeholder="Email address" name="mail" required>
-          
-        </div>
+          </div>
       
         <div class="container">
           <input type="submit" value="Subscribe">
         </div>
       </form>
+    </main>
                 <!-- // Put API for Rocket Launch
                     // Put API for APOD  -->
                 </div>
