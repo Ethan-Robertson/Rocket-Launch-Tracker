@@ -17,7 +17,7 @@
   justify-content: center;
  
   }
-
+  
 #main, .nav-bar li a {
   text-decoration: none;
   padding-right: 2px;
@@ -29,9 +29,10 @@
 
 /* background image made by aly */
 body {
-    background-image: url(/assets/images/rocket.bgIMG_1174.jpg);
+    background-image: url(../images/rocket.bgIMG_1174.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    
   }
   
   /* Animation for the rocket launch when refreshing page */
