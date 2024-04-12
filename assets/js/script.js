@@ -15,6 +15,9 @@ function getLaunchData() {
         console.log(launches);
         for (let i = 0; i < launches.results.length; i++) {
             const launch = launches.results[i];
+         const card = document.createElement("div")
+         card.setAttribute("class", "card")
+
             console.log(launches);
         }
     }) ;
