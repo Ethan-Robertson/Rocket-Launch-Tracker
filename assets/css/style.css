@@ -30,8 +30,9 @@
 /* background image made by aly */
 body {
     background-image: url(../images/rocket.bgIMG_1174.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   /* Animation for the rocket launch when refreshing page */
