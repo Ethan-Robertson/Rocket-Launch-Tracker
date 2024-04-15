@@ -11,16 +11,19 @@ function getLaunchData() {
     .then(function(response){
         return response.json();
     })
-    .then(function(launches){
-        console.log(launches);
-        for (let i = 0; i < launches.results.length; i++) {
-            const launch = launches.results[i];
-         const card = document.createElement("div")
-         card.setAttribute("class", "card")
-
-            console.log(launches);
+    .then(function(data){
+        console.log(data);
+        for (let i = 0; i < 1; i++) {
+            const launch = data.results[i];
+            console.log(launch);
+            console.log(launch.name, launch.image)
+         const card = document.querySelector(".card")
+            card.querySelector(".card-title").textContent = launch.name
+            card.querySelector(".card-img-top").src = launch.image
         }
     }) ;
 }
 
 getLaunchData();
+
+// 
