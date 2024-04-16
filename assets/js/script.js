@@ -1,10 +1,25 @@
 
 // APOD API
-function getAPI() {
-    const requestUrl = 'https://api.nasa.gov/planetary/apod';
-}
+function getAstronomyImage() {
+    const requestUrl = 'https://api.nasa.gov/planetary/apod?api_key=b42EJNM4mHurfnOSldM0PPgzarPZgdean7wvURrJ';
+    fetch(requestUrl)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(data){
+        console.log(data);
+        const{url, title, explanation} = data
+        console.log(url, title, explanation)
+        const card = document.querySelector(".card-astronomy")
+            card.querySelector(".url").src = url
+            card.querySelector(".title-astronomy").textContent = title
+            card.querySelector(".explanation").textContent = explanation
+        }
+    )}
 
-//Launch API
+getAstronomyImage();
+
+// Launch API
 function getLaunchData() {
     const requestUrl = 'https://lldev.thespacedevs.com/2.2.0/launch/upcoming/';
     fetch(requestUrl)
@@ -32,4 +47,3 @@ function getLaunchData() {
 
 getLaunchData();
 
-// 
