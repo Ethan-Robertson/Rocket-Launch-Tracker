@@ -31,8 +31,9 @@
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #ccc;
   display: inline;
-  justify-content: center;
- 
+  justify-content: justify;
+  text-align: center;
+  width: 33%;
   }
   
 #main, .nav-bar li a {
@@ -41,7 +42,7 @@
   text-transform: uppercase;
   color: #f7e6e6;
 	text-shadow: 1px 1px 1px #ccc;
-}
+ }
 
 
 /* background image made by aly */
