@@ -127,4 +127,10 @@ body {
       max-width: 500px;
       height: auto;
   }
+
+  .url {
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
 /* ends here */
