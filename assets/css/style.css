@@ -7,6 +7,23 @@
     color: aliceblue;
 }
 
+/* font css*/
+.nabla {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* nav bar links */
 #main, .nav-bar, li {
   text-decoration: none;
@@ -62,20 +79,26 @@ body {
     
 }
 
-
-/* this is the forum css */
-form {
-    border: 1px solid #f1f1f1;
-  }
   
- 
-  .container, h1 {
+  .logo {
     padding: 10px;
-    background-color: #f1f1f1;
+    font-family: "Bungee Spice", sans-serif;
+    /* this gradient is in case the font doesnt work on certain browsers, so the same feel is achieved*/ 
+    color: linear-gradient(0deg, rgba(202,13,0,1) 0%, rgba(241,163,0,1) 100%);
     text-align: center;
-    color: black;
+    font-size: 70px;
+    
   }
   
+  .container h1{
+    padding: 10px;
+    font-family: "Nabla", sans-serif;
+    color: linear-gradient(0deg, rgba(202,13,0,1) 0%, rgba(241,163,0,1) 100%);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px;
+  }
+ 
 
   input[type=text], input[type=submit] {
     width: 100%;
@@ -96,5 +119,11 @@ form {
   
   input[type=submit]:hover {
     opacity: 0.8;
+  }
+
+  .img-fluid {
+      display: block;
+      max-width: 500px;
+      height: auto;
   }
 /* ends here */

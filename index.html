@@ -4,11 +4,18 @@
         <meta charset = 'UTF-8'>
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>Rocket Launch Tracker</title>
-        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <!--Bootstrap?-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="./assets/css/style.css">
+        <!--Font Code-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap" rel="stylesheet">
     </head> 
     <!-- header and nav-bar -->
-    <header><h1>Rocket Launch Tracker</H1>
+    <header><h1 class="logo">Rocket Launch Tracker</H1>
         <nav id="menu">
             <ul>
                 <div class="nav-bar">
@@ -25,10 +32,12 @@
             <h2 id="rockets">Rocket Launch Countdown</h2>
             <h3>Keep track of rocket launches from around the world!</h3>
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="..." class="img-fluid" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="provider">Launch Service Provider</h5>
+                <h5 class="pad">Pad</h5>
+                <h5 class="launch_start">Launch</h5>
               </div>
             </div>
             <h2 id="pictures">Space Picture of the Day!</h2>
@@ -59,7 +68,8 @@
         <div class="animation">
             <img class="rocket launch" src="./assets/images/rocketlaunch1-removebg-preview.png" width="300" height="200">
         </div>
-        <script src="assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/boostrap.js"></script>
     </footer>
 </html>
 
@@ -67,57 +77,3 @@
 
 
 
-<!-- <div class="humans-wrapper">
-  <div class="humans-container">
-    <ul class="humans-list">
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/500/302" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/501/303" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/500/304" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/500/305" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/500/307" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-      <li class="human">
-        <a href="#" class="human-link" >&nbsp;</a>
-        <img src="https://picsum.photos/500/309" alt="" class="photo">
-        <div class="human-text">
-          <span class="humans-title">This is the title.</span>
-          <span class="humans-subhead">This is the subhead.</span>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div> -->
