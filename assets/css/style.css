@@ -34,6 +34,7 @@
   justify-content: justify;
   text-align: center;
   width: 33%;
+  font-size: 20px;
   }
   
 #main, .nav-bar li a {
@@ -41,7 +42,8 @@
   padding-right: 2px;
   text-transform: uppercase;
   color: #f7e6e6;
-	text-shadow: 1px 1px 1px #ccc;
+	text-shadow: 2px 1px 2px #cdbebe;
+  font-size: 20px;
  }
 
 
@@ -98,8 +100,17 @@ body {
     font-size: 50px;
     text-shadow: 3px;
   }
- 
 
+  /* formatting of container contents*/
+
+  .title-astronomy{
+    text-align: center;
+    font-size: 25px;
+  }
+  .explanation{
+    text-align: justify;
+    font-size: 20px;
+  }
   input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
