@@ -136,7 +136,7 @@ body {
 .floating-button {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 900px;
 }
 
 #fb {
