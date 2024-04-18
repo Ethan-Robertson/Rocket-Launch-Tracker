@@ -120,8 +120,6 @@ body {
     box-sizing: border-box;
   }
   
-  
- 
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -145,11 +143,10 @@ body {
 }
 
 .floating-button {
-  position: fixed;
   bottom: 20px;
   right: 900px;
 }
-  right: 20px;
+  
 
 #fb {
   background-color: goldenrod;
